@@ -20,6 +20,6 @@ if __name__ == "__main__":
 
     print(f"Heads: {heads}, Tails: {int(3) - heads}")
     if heads > 1:
-        print("You won!")
+        print(f"{name} won!")
     else:
-        print("You lost!")
+        print(f"{name} lost!")
