@@ -3,6 +3,10 @@ import random
 if __name__ == "__main__":
     heads = int(0)
 
+    print("Who are you?")
+    name = input()
+    print(f"Hello, {name}!")
+
     print("Tossing a coin...")
 
     for i in range(3):
