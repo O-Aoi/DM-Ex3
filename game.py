@@ -15,3 +15,7 @@ if __name__ == "__main__":
             print("Tails")
 
     print(f"Heads: {heads}, Tails: {int(3) - heads}")
+    if heads > 1:
+        print("You won!")
+    else:
+        print("You lost!")
